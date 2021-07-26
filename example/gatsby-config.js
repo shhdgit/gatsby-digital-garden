@@ -20,6 +20,7 @@ module.exports = {
         roamEmail: process.env.ROAM_EMAIL,
         roamPassword: process.env.ROAM_PASSWORD,
         parseWikiLinks: true,
+        ignore: [],
       },
     },
   ],
