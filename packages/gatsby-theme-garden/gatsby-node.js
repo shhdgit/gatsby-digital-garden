@@ -361,5 +361,6 @@ exports.pluginOptionsSchema = ({ Joi }) => {
       .description(
         "Whether to parse the wikilinks (`[[Internal link|With custom text]]`) or not"
       ),
+    ignore: Joi.array().description("The gatsby-source-filesystem ignore Option"),
   });
 };
