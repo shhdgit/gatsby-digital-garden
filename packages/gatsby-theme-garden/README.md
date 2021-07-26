@@ -1,4 +1,4 @@
-# gatsby-theme-garden
+# gatsby-theme-gardenx
 
 A Gatsby theme for publishing a digital garden.
 
@@ -27,7 +27,7 @@ gatsby new my-digital-garden https://github.com/mathieudutour/gatsby-starter-dig
    module.exports = {
      plugins: [
        {
-         resolve: `gatsby-theme-garden`,
+         resolve: `gatsby-theme-gardenx`,
          options: {
            // basePath defaults to `/`
            basePath: `/garden`,
